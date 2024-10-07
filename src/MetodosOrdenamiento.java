@@ -149,7 +149,7 @@ public class MetodosOrdenamiento {
     }
 
     // Método de inserción con errores
-    // Error encontrado:
+    // Error encontrado: el error recae que en el for no se usa i sino j que esta mal se cambia eso y abajo de siguala a arreglo en i
     public int[] insercionSegundo(int[] arregloOriginal) {
 
         int[] arreglo = Arrays.copyOf(arregloOriginal, arregloOriginal.length);
@@ -166,7 +166,8 @@ public class MetodosOrdenamiento {
     }
 
     // Método de inserción con errores
-    // Error encontrado:
+    // Error encontrado: aqui se debe agregar un -1 a j en la igualacion de i en el while debe 
+    // ser i + 1 y debe ser mayor al key y de debe ir para atras con i-- y se cambia el return del arreglo
     public int[] insercionTercero(int[] arregloOriginal) {
 
         int[] arreglo = Arrays.copyOf(arregloOriginal, arregloOriginal.length);
